@@ -1,5 +1,15 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  scroll-behavior: smooth;
+}
 .heroimage {
   width: 250px;
   height: 250px;
 }
 
+section{
+  width: 100%;
+  height: 100vh;
+}
