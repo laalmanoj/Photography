@@ -21,4 +21,9 @@ section {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
 /*# sourceMappingURL=style.css.map */

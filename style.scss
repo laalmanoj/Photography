@@ -2,9 +2,11 @@ body{
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden !important;
 }
+
 *{
   scroll-behavior: smooth;
 }
+
 .heroimage {
   width: 250px;
   height: 250px;
@@ -18,4 +20,9 @@ section{
 .align{
   max-width: 100%;
   overflow-x: hidden;
+}
+
+.logo{
+  width: 90px; 
+  height: 90px;
 }
