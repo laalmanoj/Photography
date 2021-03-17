@@ -13,11 +13,21 @@ body {
 }
 
 header .navbar {
-  background-color: aquamarine !important;
+  background: #0cebeb;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#29ffc6), color-stop(#20e3b2), to(#0cebeb)) !important;
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb) !important;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .section1 {
-  background-color: aquamarine;
+  background: #0cebeb;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#29ffc6), color-stop(#20e3b2), to(#0cebeb));
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .align {
@@ -34,6 +44,10 @@ header .navbar {
   font-weight: bold;
 }
 
+.section2 .script1 {
+  font-weight: bold;
+}
+
 .script1sub {
   font-weight: bold;
 }
@@ -44,7 +58,7 @@ html {
 
 @media (max-width: 576px) {
   html {
-    font-size: 1rem;
+    font-size: .6rem;
   }
   .section1 .heroimage {
     width: 250px;
@@ -55,7 +69,7 @@ html {
 
 @media (min-width: 576px) {
   html {
-    font-size: 1rem;
+    font-size: .6rem;
   }
 }
 
@@ -81,11 +95,26 @@ html {
 
 @media (min-width: 1200px) {
   html {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .section1 .heroimage {
     width: 500px;
     height: 500px;
   }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+.section2 {
+  background: #0F2027;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#2C5364), color-stop(#203A43), to(#0F2027));
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /*# sourceMappingURL=style.css.map */
