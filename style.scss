@@ -1,3 +1,4 @@
+@import "card";
 body{
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden !important;
@@ -53,7 +54,6 @@ header span h5{
   
 }
 
-.section3 .script1
 
 .script1sub{
   font-weight: bold;
@@ -68,17 +68,14 @@ header span h5{
 }
 
 .section3{
-    background: #525252;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
-   
+  background: #3a7bd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
-.section3 ul li{
-  list-style: none;
-}
+
 
 html { font-size: 1rem; }
 
